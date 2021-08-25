@@ -1,6 +1,6 @@
 {
   "name": "wett-firestore",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "this is a plugin for wett db api, it gives you firebase-admin access to the firestore db, you can use the firebase-admin object as a global variable in node js with firebase varibale name this firebase app is initialized with cred and db_url params passed in wett db init as object parameters",
   "main": "index.js",
   "scripts": {

@@ -2,9 +2,6 @@
 
 global.firebase = require('firebase-admin');
 const fieldvalue = firebase.firestore.FieldValue;
-// const common = engine.common;
-
-console.log(fieldvalue.decrement);
 
 module.exports = {
 
