@@ -150,7 +150,7 @@ module.exports = {
   clearDoc : async function(ref){
     // console.log('>>> clearing doc');
     let result = await this.processDoc(ref);
-    console.log({result:result});
+    // console.log({result:result});
     // console.log('>>> collections deleted : ' + ledger.collections);
     // console.log('>>> docs deleted : ' + ledger.docs);
     return result;
