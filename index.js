@@ -47,6 +47,8 @@ module.exports = {
         local = local.startAfter(item.query);
       } else if(item.type == 'before'){
         local = local.endBefore(item.query);
+      } else if(item.type == 'offset'){
+        local = local.offset(item.query);
       } else if(item.type == 'orderBy'){
         if(item.query.direction == 'asc'){
           local = local.orderBy(item.query.index,'asc');
